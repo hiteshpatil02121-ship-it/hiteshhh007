@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Staff Attendance</title>
+</head>
+<body>
+  <h2>Staff Daily Attendance</h2>
+  <form>
+    Name: <input type="text" name="name" required><br><br>
+    Status:
+    <input type="radio" id="present" name="status" value="Present" checked>
+    <label for="present">Present</label>
+    <input type="radio" id="absent" name="status" value="Absent">
+    <label for="absent">Absent</label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
